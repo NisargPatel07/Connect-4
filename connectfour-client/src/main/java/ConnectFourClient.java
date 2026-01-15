@@ -1,14 +1,3 @@
-/*
-Kirtan Patel Nisarg Patel
-We have developed a connect four game using client and server in java
- we have a simple login screena and create account buttons which will help user to have their
- unique username and passwords then we have single play option where the user can play with the AI
- and learn how to play then  we have play online option where the user can play with their friends
- online , we also have a show statistics screen where the user can see their win % , total game played and longest
- winning streak and we also cretaed a How to play screen where it has information to how to play the game and the things
- we have implemeted in our game
-*/
-
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -1099,5 +1088,6 @@ public class ConnectFourClient extends Application {
         alert.setContentText(message);
         alert.showAndWait();
     }
+
 
 }
